@@ -33,7 +33,7 @@ export default class Portal extends Component {
 					<CSSTransitionGroup
 						component="div"
 						transitionName="fade"
-						transitionEnterTimeout={duration}
+						transitionEnterTimeout={duration + 200}
 						transitionLeaveTimeout={duration}
 						{...this.props}
 					/>
